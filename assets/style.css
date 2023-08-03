@@ -115,49 +115,7 @@ img {
     line-height: 34px !important;
 }
 
-/* .hero-title button {
-    font-size: 22px;
-    transition: all 0.5s;
-    cursor: pointer;
-    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-    color: #FFF;
-    display: flex;
-    width: 160px;
-    padding: 12px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    background: linear-gradient(225deg, #A67F41 0%, #000 100%);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
-}
-
-.hero-title button::after {
-    content: '»';
-    position: absolute;
-    opacity: 0;
-    top: 10px;
-    right: 50px;
-    transition: 0.5s;
-    color: #FFF;
-}
-
-.hero-title button:hover {
-    padding-right: 24px;
-    padding-left: 8px;
-    color: #FFF;
-    background: linear-gradient(-225deg, #A67F41 0%, #000 100%);
-}
-
-.hero-title button::after {
-    opacity: 1;
-    right: 10px;
-} */
 
 
 .hero-btn {
@@ -255,16 +213,6 @@ img {
     left: 0;
     width: 0;
     height: 0;
-    /* border-style: solid;
-    border-top-width: 40px;
-    border-right-width: 0;
-    border-bottom-width: 0;
-    border-left-width: 545px;
-    border-left-width: calc(575px - 5vw);
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: inherit; */
 }
 
 .card-custom-avatar img {
@@ -481,4 +429,5 @@ footer span {
     height: 65px;
     background: linear-gradient(-225deg, #A67F41 0%, #000 100%);
     color: #fff !important;
+    z-index: 999999;
 }
